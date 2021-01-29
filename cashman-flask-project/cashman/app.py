@@ -44,7 +44,7 @@ def add_expenses():
 
     for x, y in json_data.items():
 
-        print(x)
+        print(x, y)
 
     return str(response.text)
 
